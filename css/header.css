@@ -1,3 +1,7 @@
+header {
+    margin-top: 100px;
+}
+
 header .gallery {
     position: relative;
     display: flex;
@@ -6,11 +10,12 @@ header .gallery {
     background-image: url('../img/kot1.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 100% auto;
+    background-size: cover;
     margin: 0 auto;
     justify-content: center;
     align-items: flex-end;
-    transition: .3s linear;
+    transition: .1s linear;
+    box-shadow: 0 0 8px 0 black;
 }
 
 header .gallery .dot {
@@ -20,7 +25,6 @@ header .gallery .dot {
     border-radius: 50%;
     margin: 15px 5px;
     cursor: pointer;
-    border: 7px solid #333;
     transition: .3s linear;
 }
 
@@ -34,7 +38,6 @@ header .gallery .dot.active:hover {
 
 header .gallery .dot:hover {
     background-color: #000;
-    border-color: #000;
 }
 
 header .gallery .arrow {
