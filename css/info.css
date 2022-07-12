@@ -1,0 +1,36 @@
+.info {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    /* border: 1px sold grey; */
+
+}
+
+.info>div {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+
+}
+
+.info div .photo p {
+    font-size: 2rem;
+    text-shadow: 3px 3px 10px black;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.info div .photo>p {
+    margin-top: 30px;
+}
+
+.info div .photo>p~p {
+    margin-top: 0;
+}
+
+.info div .photo {}

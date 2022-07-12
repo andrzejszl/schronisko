@@ -1,0 +1,74 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.news>p {
+    display: block;
+    font-size: 3rem;
+    line-height: 3rem;
+    background-color: #ccc;
+    padding: 20px 0 20px 40px;
+}
+
+.news .row1,
+.news .row2 {
+    position: relative;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 50px 10px;
+}
+
+.news .row1 p,
+.news .row2 p {
+    position: absolute;
+    font-size: 2rem;
+    left: 5%;
+    top: 100%;
+    width: 25%;
+}
+
+.news .row1 p~p,
+.news .row2 p~p {
+    top: calc(100% + 20px);
+}
+
+.news .row1 div,
+.news .row2 div {
+    width: 30%;
+    background-size: cover;
+}
+
+.news .row1 #news1 {
+    background-image: url(../img/news1.jpg);
+}
+
+.news .row1 #news2 {
+    background-image: url(../img/news2.jpg);
+}
+
+.news .row1 #news3 {
+    background-image: url(../img/news3.jpg);
+}
+
+.news .row2 #news4 {
+    background-image: url(../img/news4.jpg);
+}
+
+.news .row2 #news5 {
+    background-image: url(../img/news5.jpg);
+}
+
+.news .row2 #news6 {
+    background-image: url(../img/news6.jpg);
+}
+
+.news div {
+    /* background-color: #ccc; */
+    height: 25vw;
+    /* width: 100%; */
+}
